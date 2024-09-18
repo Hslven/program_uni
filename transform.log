@@ -1,0 +1,132 @@
+开始转换……
+小程序路径:  D:/CodeModule/项目/统计/program
+搜索到224个文件(含目录)，耗时：6ms
+
+开始分析文件
+分析文件信息完成，共46组数据
+开始转换文件组为vue文件
+转换进度: 1 / 92   fileKey：app
+转换进度: 2 / 92   fileKey：config/api
+转换进度: 3 / 92   fileKey：lib/wxParse/html2json
+转换进度: 4 / 92   fileKey：lib/wxParse/htmlparser
+转换进度: 5 / 92   fileKey：lib/wxParse/showdown
+转换进度: 6 / 92   fileKey：lib/wxParse/wxDiscode
+转换进度: 7 / 92   fileKey：lib/wxParse/wxParse
+转换进度: 8 / 92   fileKey：pages/auth/login/login
+转换进度: 9 / 92   fileKey：pages/auth/register/register
+转换进度: 10 / 92   fileKey：pages/auth/reset/reset
+转换进度: 11 / 92   fileKey：pages/brand/brand
+转换进度: 12 / 92   fileKey：pages/brandDetail/brandDetail
+转换进度: 13 / 92   fileKey：pages/cart/cart
+转换进度: 14 / 92   fileKey：pages/catalog/catalog
+转换进度: 15 / 92   fileKey：pages/category/category
+转换进度: 16 / 92   fileKey：pages/comment/comment
+转换进度: 17 / 92   fileKey：pages/commentPost/commentPost
+转换进度: 18 / 92   fileKey：pages/goods/goods
+转换进度: 19 / 92   fileKey：pages/hotGoods/hotGoods
+转换进度: 20 / 92   fileKey：pages/index/index
+转换进度: 21 / 92   fileKey：pages/logs/logs
+转换进度: 22 / 92   fileKey：pages/newGoods/newGoods
+转换进度: 23 / 92   fileKey：pages/pay/pay
+转换进度: 24 / 92   fileKey：pages/payResult/payResult
+转换进度: 25 / 92   fileKey：pages/search/search
+转换进度: 26 / 92   fileKey：pages/shopping/address/address
+转换进度: 27 / 92   fileKey：pages/shopping/addressAdd/addressAdd
+转换进度: 28 / 92   fileKey：pages/shopping/checkout/checkout
+转换进度: 29 / 92   fileKey：pages/topic/topic
+转换进度: 30 / 92   fileKey：pages/topicComment/topicComment
+转换进度: 31 / 92   fileKey：pages/topicDetail/topicDetail
+转换进度: 32 / 92   fileKey：pages/ucenter/address/address
+转换进度: 33 / 92   fileKey：pages/ucenter/addressAdd/addressAdd
+转换进度: 34 / 92   fileKey：pages/ucenter/collect/collect
+转换进度: 35 / 92   fileKey：pages/ucenter/coupon/coupon
+转换进度: 36 / 92   fileKey：pages/ucenter/express/express
+转换进度: 37 / 92   fileKey：pages/ucenter/feedback/feedback
+转换进度: 38 / 92   fileKey：pages/ucenter/footprint/footprint
+转换进度: 39 / 92   fileKey：pages/ucenter/index/index
+转换进度: 40 / 92   fileKey：pages/ucenter/order/order
+转换进度: 41 / 92   fileKey：pages/ucenter/orderDetail/orderDetail
+转换进度: 42 / 92   fileKey：project.config
+转换进度: 43 / 92   fileKey：project.private.config
+转换进度: 44 / 92   fileKey：services/pay
+转换进度: 45 / 92   fileKey：services/user
+转换进度: 46 / 92   fileKey：utils/util
+开始二次遍历及生成vue文件
+转换进度: 47 / 92   fileKey：app
+转换进度: 48 / 92   fileKey：config/api
+转换进度: 49 / 92   fileKey：lib/wxParse/html2json
+转换进度: 50 / 92   fileKey：lib/wxParse/htmlparser
+转换进度: 51 / 92   fileKey：lib/wxParse/showdown
+转换进度: 52 / 92   fileKey：lib/wxParse/wxDiscode
+转换进度: 53 / 92   fileKey：lib/wxParse/wxParse
+转换进度: 54 / 92   fileKey：pages/auth/login/login
+转换进度: 55 / 92   fileKey：pages/auth/register/register
+转换进度: 56 / 92   fileKey：pages/auth/reset/reset
+转换进度: 57 / 92   fileKey：pages/brand/brand
+转换进度: 58 / 92   fileKey：pages/brandDetail/brandDetail
+转换进度: 59 / 92   fileKey：pages/cart/cart
+转换进度: 60 / 92   fileKey：pages/catalog/catalog
+转换进度: 61 / 92   fileKey：pages/category/category
+转换进度: 62 / 92   fileKey：pages/comment/comment
+转换进度: 63 / 92   fileKey：pages/commentPost/commentPost
+转换进度: 64 / 92   fileKey：pages/goods/goods
+转换进度: 65 / 92   fileKey：pages/hotGoods/hotGoods
+转换进度: 66 / 92   fileKey：pages/index/index
+转换进度: 67 / 92   fileKey：pages/logs/logs
+转换进度: 68 / 92   fileKey：pages/newGoods/newGoods
+转换进度: 69 / 92   fileKey：pages/pay/pay
+转换进度: 70 / 92   fileKey：pages/payResult/payResult
+转换进度: 71 / 92   fileKey：pages/search/search
+转换进度: 72 / 92   fileKey：pages/shopping/address/address
+转换进度: 73 / 92   fileKey：pages/shopping/addressAdd/addressAdd
+转换进度: 74 / 92   fileKey：pages/shopping/checkout/checkout
+转换进度: 75 / 92   fileKey：pages/topic/topic
+转换进度: 76 / 92   fileKey：pages/topicComment/topicComment
+转换进度: 77 / 92   fileKey：pages/topicDetail/topicDetail
+转换进度: 78 / 92   fileKey：pages/ucenter/address/address
+转换进度: 79 / 92   fileKey：pages/ucenter/addressAdd/addressAdd
+转换进度: 80 / 92   fileKey：pages/ucenter/collect/collect
+转换进度: 81 / 92   fileKey：pages/ucenter/coupon/coupon
+转换进度: 82 / 92   fileKey：pages/ucenter/express/express
+转换进度: 83 / 92   fileKey：pages/ucenter/feedback/feedback
+转换进度: 84 / 92   fileKey：pages/ucenter/footprint/footprint
+转换进度: 85 / 92   fileKey：pages/ucenter/index/index
+转换进度: 86 / 92   fileKey：pages/ucenter/order/order
+转换进度: 87 / 92   fileKey：pages/ucenter/orderDetail/orderDetail
+转换进度: 88 / 92   fileKey：project.config
+转换进度: 89 / 92   fileKey：project.private.config
+转换进度: 90 / 92   fileKey：services/pay
+转换进度: 91 / 92   fileKey：services/user
+转换进度: 92 / 92   fileKey：utils/util
+write pages.json success!
+write manifest.json success!
+write main.js success!
+write package.json success!
+
+
+统计信息：
+
+Component数量: 0
+Page数量: 34
+支付api数量: 3
+登录api数量: 3
+chooseMedia数量: 0
+getLocation数量: 0
+getRelationNodes数量: 0
+<ad/>数量: 0
+<map/>数量: 0
+<video/>数量: 1
+Vant组件: ， 数量：0
+
+项目转换完成！
+用时: 15.334s
+工具版本：v2.2.6
+在该小程序项目的同级目录可以看到_uni结尾的项目，即是转换好的uniapp项目，相关日志在该目录里。
+
+使用说明：
+    1.因各种原因，本工具并非100%完美转换！部分语法仍需人工处理！
+    2.工具转换原理及说明文档参考：https://l4rz4zwpx7.k.topthink.com/@kmrvzg72lx/
+    3.如遇运行报错，请添加QQ群(五群：536178289)带图反馈或https://github.com/zhangdaren/miniprogram-to-uniapp提交Issue！
+    4.转换后请查阅_uni目录或_uni-cli目录里的 README.md 和 transform.log
+
+
