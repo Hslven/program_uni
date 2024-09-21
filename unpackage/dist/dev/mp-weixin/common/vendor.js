@@ -31738,7 +31738,8 @@ module.exports = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var ApiRootUrl = 'http://127.0.0.1:8360/api/';
+// const ApiRootUrl = 'http://127.0.0.1:8360/api/';
+var ApiRootUrl = 'https://lven.tech/api/';
 module.exports = {
   IndexUrl: ApiRootUrl + 'index/index',
   //首页数据接口
