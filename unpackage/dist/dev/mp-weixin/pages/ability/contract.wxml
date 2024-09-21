@@ -1,0 +1,1 @@
+<view class="container"><view class="upload-section"><button data-event-opts="{{[['tap',[['uploadContract',['$event']]]]]}}" bindtap="__e">上传合同</button><view class="image-list"><block wx:for="{{contractImages}}" wx:for-item="image" wx:for-index="index" wx:key="index"><image style="width:100%;margin-top:10px;" src="{{image}}" mode="aspectFit"></image></block></view></view></view>

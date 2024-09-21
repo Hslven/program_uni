@@ -1,6 +1,6 @@
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/index/index"],{
 
-/***/ 45:
+/***/ 435:
 /*!********************************************************************************!*\
   !*** D:/CodeModule/项目/统计/program_uni/main.js?{"page":"pages%2Findex%2Findex"} ***!
   \********************************************************************************/
@@ -102,17 +102,6 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  var g0 = _vm.newGoods.length
-  var g1 = _vm.hotGoods.length
-  _vm.$mp.data = Object.assign(
-    {},
-    {
-      $root: {
-        g0: g0,
-        g1: g1,
-      },
-    }
-  )
 }
 var recyclableRender = false
 var staticRenderFns = []
@@ -146,12 +135,28 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
 
-
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
+var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -289,6 +294,7 @@ var user = __webpack_require__(/*! ../../services/user.js */ 53);
 var app = getApp();
 var _default = {
   data: function data() {
+    var _ref;
     return {
       goodsCount: 0,
       newGoods: [],
@@ -298,8 +304,62 @@ var _default = {
       floorGoods: [],
       banner: [],
       channel: [],
-      brand: '',
-      iitem: {
+      brand: [{
+        id: 1026000,
+        name: '合同上传',
+        list_pic_url: 'http://yanxuan.nosdn.127.net/658f09b7ec522d31742b47b914d64338.png',
+        simple_desc: '严选寻访Calvin Klein品牌的制造商，\n深入世界领带第一生产地，设计与品质并重，\n致力于给消费者带来优质典雅的服饰用品。',
+        pic_url: 'http://yanxuan.nosdn.127.net/fb139c9f11a10deb41beeb42aaad488e.png',
+        sort_order: 1,
+        is_show: 1,
+        floor_price: 39,
+        app_list_pic_url: 'http://yanxuan.nosdn.127.net/658f09b7ec522d31742b47b914d64338.png',
+        is_new: 1,
+        // new_pic_url: 'http://yanxuan.nosdn.127.net/76638fb8e6990aadf837ce761c3b7399.jpg',
+        new_pic_url: 'https://api.iconify.design/line-md:briefcase-twotone.svg?color=tan',
+        new_sort_order: 1,
+        color: '#dfe4e8',
+        url: '/pages/ability/contract'
+      }, (_ref = {
+        id: 1001000,
+        app_list_pic_url: 'http://yanxuan.nosdn.127.net/1541445967645114dd75f6b0edc4762d.png',
+        floor_price: 12.9
+      }, (0, _defineProperty2.default)(_ref, "id", 1001000), (0, _defineProperty2.default)(_ref, "is_new", 1), (0, _defineProperty2.default)(_ref, "is_show", 1), (0, _defineProperty2.default)(_ref, "list_pic_url", 'http://yanxuan.nosdn.127.net/1541445967645114dd75f6b0edc4762d.png'), (0, _defineProperty2.default)(_ref, "name", '数据分析'), (0, _defineProperty2.default)(_ref, "new_sort_order", 2), (0, _defineProperty2.default)(_ref, "pic_url", 'http://yanxuan.nosdn.127.net/4ea3f1e60dd77c45c218e503d721a1ed.jpg'), (0, _defineProperty2.default)(_ref, "new_pic_url", 'https://api.iconify.design/line-md:document-report-twotone.svg?color=%23888888'), (0, _defineProperty2.default)(_ref, "simple_desc", '严选精选了MUJI制造商和生产原料，↵用几乎零利润的价格，剔除品牌溢价，↵让用户享受原品牌,的品质生活。'), (0, _defineProperty2.default)(_ref, "sort_order", 2), (0, _defineProperty2.default)(_ref, "color", '#e9eef0'), (0, _defineProperty2.default)(_ref, "url", '/pages/ability/data'), _ref), {
+        app_list_pic_url: 'http://yanxuan.nosdn.127.net/2018e9ac91ec37d9aaf437a1fd5d7070.png',
+        floor_price: 9.9,
+        id: 1024000,
+        is_new: 1,
+        is_show: 1,
+        list_pic_url: 'http://yanxuan.nosdn.127.net/2018e9ac91ec37d9aaf437a1fd5d7070.png',
+        name: '车辆状况',
+        new_sort_order: 3,
+        pic_url: 'http://yanxuan.nosdn.127.net/2a2ae0d49043e525db8d0d8d84460ac8.png',
+        simple_desc: '严选找寻德国百年高端厨具WMF的制造商，↵选择拥有14年经验的不锈钢生产工厂，↵为你甄选事半功倍的优质厨具。',
+        sort_order: 8,
+        // new_pic_url: 'http://yanxuan.nosdn.127.net/abcfa79205679db51198adc19c184dd1.jpg',
+        new_pic_url: 'https://api.iconify.design/line-md:cog-filled.svg?color=burlywood',
+        color: '#f4f4f4',
+        url: '/pages/ability/car'
+      }, {
+        app_list_pic_url: 'http://yanxuan.nosdn.127.net/1b1cc16135fd8467d40983f75f644127.png',
+        floor_price: 49,
+        id: 1001038,
+        is_new: 1,
+        is_show: 1,
+        list_pic_url: 'http://yanxuan.nosdn.127.net/1b1cc16135fd8467d40983f75f644127.png',
+        name: '今日收益总欠款',
+        new_sort_order: 10,
+        pic_url: 'http://yanxuan.nosdn.127.net/c933a662bb79b2a47280363e35ab994b.png',
+        simple_desc: '严选为制作高品质高颜值皮具配件，↵由Coach、MK等品牌制造商生产，↵由严选360度全程监制，给你带来优质皮具。',
+        sort_order: 3,
+        // new_pic_url: 'http://yanxuan.nosdn.127.net/b5cd73d3b310bad02539412f064d4ea1.jpg',
+        new_pic_url: 'https://api.iconify.design/line-md:list-indented.svg?color=%23888888',
+        color: '#f4f4f4',
+        url: '/pages/ability/debt'
+        // url: '/pages/brandDetail/brandDetail',
+      }],
+
+      item: {
         id: '',
         list_pic_url: '',
         name: '',
@@ -310,7 +370,7 @@ var _default = {
   onShareAppMessage: function onShareAppMessage() {
     return {
       title: 'NideShop',
-      desc: '仿网易严选微信小程序商城',
+      desc: '车务助手微信小程序商城',
       path: '/pages/index/index'
     };
   },
@@ -336,6 +396,11 @@ var _default = {
     // 页面关闭
   },
   methods: {
+    navigatorTo: function navigatorTo(url) {
+      uni.navigateTo({
+        url: url
+      });
+    },
     getIndexData: function getIndexData() {
       var that = this;
       util.request(api.IndexUrl).then(function (res) {
@@ -344,7 +409,7 @@ var _default = {
             newGoods: res.data.newGoodsList,
             hotGoods: res.data.hotGoodsList,
             topics: res.data.topicList,
-            brand: res.data.brandList,
+            // brand: res.data.brandList,
             floorGoods: res.data.categoryList,
             banner: res.data.banner,
             channel: res.data.channel
@@ -355,6 +420,7 @@ var _default = {
   }
 };
 exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
 
@@ -387,5 +453,5 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ })
 
-},[[45,"common/runtime","common/vendor"]]]);
+},[[435,"common/runtime","common/vendor"]]]);
 //# sourceMappingURL=../../../.sourcemap/mp-weixin/pages/index/index.js.map
